@@ -1,47 +1,56 @@
-import random
-import statistics
+#2023601 Rayyan Hassan Salman
+#folloring is the code of ES-111 Project Python-For-Statistics
+
+#import libruaries
 import pandas as pd
 import matplotlib.pyplot as plt
-#actual code 
-def freq(list):
-    freqs=[0]*10
-    taken=set()
-    for i in range(10):
-        for j in range(10):
-            if list[i]==list[j] and i not in taken:
-                if(i!=j):
-                     taken.add(j)
-                freqs[i]+=1    
-    return [item for item in freqs if item != 0]
-def unique(list):
-    newlist=[10]*10
-    count=0
-    taken =set()
-    for i in range(10):
-        if list[i] not in taken:
-            newlist[count]=list[i]
-            taken.add(list[i])
-            count+=1
-    return [item for item in newlist if item != 10]
-list = [random.randint(0, 9) for _ in range(10)]#creat a list of 10 random integers
-def sort(list):
-    for i in range(10):
-        for j in range(10):
-            if(list[j]<list[i]):
-                temp=list[j]
-                list[j]=list[i]
-                list[i]=temp
-    return list
-print("Data : ",end="")#print data
-for _ in list :
-    print(_,end=",")
-print("")#print stats
-print(f"Mode : {statistics.mode(list)}")
-print(f"Mean : {pd.Series(list).mean()}")
-print(f"Median : {pd.Series(list).median()}")
-fig, (ax1, ax2,ax3) = plt.subplots(nrows=3, ncols=1, figsize=(6, 8))
-ax1.hist(list,bins=range(min(list),max(list)+2),color='skyblue',edgecolor='black')
-ax2.scatter(unique(list), freq(list), marker='o', linestyle='-', color='b', label='Data')
-ax3.plot(unique(sort(list)), freq(sort(list)), marker='o', linestyle='-', color='b', label='Data')
-plt.tight_layout()
-plt.sho
+import random
+
+#read te column "Marks Of Es 111 Students " from csv file to variable 'marks'
+marks=pd.read_csv(r'data.csv')['Marks Of ES 111 Students ']
+
+#fetching the uniwue values and frequencies of those unique values in data
+marks_frequency = marks.value_counts().sort_index() 
+#marks_frequency.index ---> unique values
+#marks_frequency.values --> Frequencies
+
+#print out Basic Statistics
+print(f"Mode :\n{marks.mode()}")
+print(f"Mean :{marks.mean()}")
+print(f"Median :{marks.median()}")
+print(f"Range : {max(marks)-min(marks)}")
+print(f"Standard Deviation :{marks.std()}")
+print(f"Variance :{marks.var()}")
+print(f"CoVariance :{marks.cov(marks)}")#i dont know which other dataSet to use to find covarience
+print(f"Here is a random number x {{0<=x<=99 : {random.randint(1,99)}")
+
+# Creating figure subplots
+fig, axs = plt.subplots(2, 2, figsize=(12, 10))
+
+# Plotting line chart
+axs[0,0].plot(marks_frequency.index, marks_frequency.values,marker="o", linestyle='-')#settings for accurate display
+axs[0,0].set_title('Line Chart')     #Labels
+axs[0,0].set_xlabel('Marks')
+axs[0,0].set_ylabel('Frequency')
+
+# Plotting histogram
+axs[0,1].hist(marks, bins=range(min(marks),max(marks)+1), color='skyblue', edgecolor='black')#settings for accurate display
+axs[0,1].set_title('Histogram')      #Labels
+axs[0,1].set_xlabel('Marks')
+axs[0,1].set_ylabel('Frequency')
+
+#plotting bar chart
+axs[1,0].bar(marks_frequency.index, marks_frequency.values, color='skyblue')#settings for accurate display
+axs[1,0].set_xlabel('Marks')        #Labels
+axs[1,0].set_ylabel('Frequency')
+axs[1,0].set_title('Bar Chart')
+
+#making pie chart
+axs[1,1].pie(marks_frequency.values,labels=marks_frequency.index, autopct='%1.1f%%', startangle=140)#settings for accurate display
+axs[1,1].axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle
+axs[1,1].set_title('Pie Chart') #Labels
+ 
+# Adjust layout
+plt.gcf().canvas.manager.set_window_title('Graphs')#set title of window to charts
+plt.tight_layout()#to prevent overlpping of charts 
+plt.show()#display charts
