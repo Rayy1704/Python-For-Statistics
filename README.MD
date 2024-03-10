@@ -12,5 +12,7 @@ Visualizes data through different types of charts including line chart, scatter 
 
 <h2>Languages & Tools🛠️</h2>
 [![Icone Python](https://skillicons.dev/icons?i=python)](https://www.python.org/)
+
 [![Icone PyCharm](https://skillicons.dev/icons?i=pycharm)](https://www.jetbrains.com/pycharm/)
+
 [![Icone VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/)
