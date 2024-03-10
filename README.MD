@@ -56,6 +56,8 @@ meaningfully to the field.</p>
 [![Icone PyCharm](https://skillicons.dev/icons?i=pycharm)](https://www.jetbrains.com/pycharm/)
 [![Icone VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/)
 
-### Additional Resources
-- [Project Report PDF](Python-CourseCertificate.pdf) - View the detailed project report for more insights.
+### Course Completion Certificate
+
+<iframe src="https://github.com/Rayy1704/Python-For_Statistics/raw/main/Python-CourseCertificate.pdf" width="100%" height="600px"></iframe>
+
 
