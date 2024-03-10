@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import random
 
 #read te column "Marks Of Es 111 Students " from csv file to variable 'marks'
-marks=pd.read_csv(r'data.csv')['Marks Of ES 111 Students ']
+marks=pd.read_csv(r'Data.csv')['Marks Of ES 111 Students ']
 
 #fetching the uniwue values and frequencies of those unique values in data
 marks_frequency = marks.value_counts().sort_index() 
@@ -22,14 +22,14 @@ print(f"Range : {max(marks)-min(marks)}")
 print(f"Standard Deviation :{marks.std()}")
 print(f"Variance :{marks.var()}")
 print(f"CoVariance :{marks.cov(marks)}")#i dont know which other dataSet to use to find covarience
-print(f"Here is a random number x {{0<=x<=99 : {random.randint(1,99)}")
+print(f"Here is a random number x {{1<=x<=99 : {random.randint(1,99)}")
 
 # Creating figure subplots
 fig, axs = plt.subplots(2, 2, figsize=(12, 10))
 
 # Plotting line chart
 axs[0,0].plot(marks_frequency.index, marks_frequency.values,marker="o", linestyle='-')#settings for accurate display
-axs[0,0].set_title('Line Chart')     #Labels
+axs[0,0].set_title('Line Chart & Scatter Plot')     #Labels
 axs[0,0].set_xlabel('Marks')
 axs[0,0].set_ylabel('Frequency')
 
