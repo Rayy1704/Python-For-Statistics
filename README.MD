@@ -58,8 +58,6 @@ meaningfully to the field.</p>
 
 ### Course Completion Certificate
 
-### Course Completion Certificate
-
 [View Certificate](https://github.com/Rayy1704/Python-For_Statistics/raw/main/Python-CourseCertificate.pdf)
 
 
