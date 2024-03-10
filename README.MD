@@ -58,18 +58,9 @@ meaningfully to the field.</p>
 
 ### Course Completion Certificate
 
-### Project Report PDF
+### Course Completion Certificate
 
-<div id="pdfEmbed" style="height: 600px; width: 100%;">
-  <object data="https://github.com/Rayy1704/Python-For_Statistics/blob/main/Python-CourseCertificate.pdf" type="application/pdf" width="100%" height="100%">
-    <embed src="https://github.com/Rayy1704/Python-For_Statistics/blob/main/Python-CourseCertificate.pdf" />
-  </object>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
-<script>
-  PDFObject.embed("https://github.com/Rayy1704/Python-For_Statistics/blob/main/Python-CourseCertificate.pdf", "#pdfEmbed");
-</script>
+[View Certificate](https://github.com/Rayy1704/Python-For_Statistics/raw/main/Python-CourseCertificate.pdf)
 
 
 
