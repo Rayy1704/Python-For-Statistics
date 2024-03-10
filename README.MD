@@ -40,6 +40,7 @@
   <li>Generates random numbers within a specified range.</li>
   <li>Visualizes data through different types of charts including line chart, scatter plot, histogram, bar chart, and pie chart.</li>
 </ol>
+<h3>##Learning Journey: From Course to Project</h3>
 <p>Embarking on the journey to develop the ES-111 Project, I initially sought to bolster my skills by<br>
 enrolling in the Python for Beginners course offered by the University of Michigan. Through the course(Course Certificate provided),<br>
 I gained a comprehensive understanding of Python programming, data manipulation, and visualization techniques,<br>
