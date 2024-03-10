@@ -56,7 +56,7 @@ meaningfully to the field.</p>
 [![Icone PyCharm](https://skillicons.dev/icons?i=pycharm)](https://www.jetbrains.com/pycharm/)
 [![Icone VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/)
 
-### Course Completion Certificate
+<h2>### Course Completion Certificate</h2>
 
 [View Certificate](https://github.com/Rayy1704/Python-For_Statistics/raw/main/Python-CourseCertificate.pdf)
 
