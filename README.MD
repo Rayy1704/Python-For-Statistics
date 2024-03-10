@@ -30,8 +30,6 @@
   </li>
 </ol>
 
-<h3>##Functionality</h3>
-<h4>The code performs the following functionalities:</h4>
 <h3>##Functionalities Implemented:</h3>
 
 <ol>
