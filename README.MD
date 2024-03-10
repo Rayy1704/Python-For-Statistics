@@ -2,6 +2,33 @@
 
 <h3>##Introduction</h3>
 <p>This repository contains Python code for analyzing and visualizing data <br>related to ES-111 students' marks. The project focuses on providing basic<br>statistics and various graphical representations of the data</p>
+<h3>Libraries Used in the Project:</h3>
+
+<ol>
+  <li>
+    <strong>pandas:</strong>
+    <ul>
+      <li><strong>Purpose:</strong> Data handling, reading CSV file, and organizing data into a DataFrame.</li>
+      <li><strong>Functionality:</strong> Enables data exploration, manipulation, and analysis.</li>
+    </ul>
+  </li>
+  
+  <li>
+    <strong>matplotlib.pyplot:</strong>
+    <ul>
+      <li><strong>Purpose:</strong> Visualization of data through various types of charts including line charts, scatter plots, histograms, bar charts, and pie charts.</li>
+      <li><strong>Functionality:</strong> Provides tools for generating and customizing different types of plots, aiding in understanding the distribution and characteristics of the data.</li>
+    </ul>
+  </li>
+  
+  <li>
+    <strong>random:</strong>
+    <ul>
+      <li><strong>Purpose:</strong> Generation of random numbers within a specified range.</li>
+      <li><strong>Functionality:</strong> Useful for statistical simulations or demonstrations, enhancing the versatility of the analysis conducted in the project.</li>
+    </ul>
+  </li>
+</ol>
 
 <h3>##Functionality</h3>
 <h4>The code performs the following functionalities:</h4>
