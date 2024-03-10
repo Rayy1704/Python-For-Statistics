@@ -49,7 +49,7 @@ challenges that encouraged me to apply the concepts and techniques learned durin
 handling data with pandas to visualizing it using matplotlib.pyplot, every step of the project provided valuable learning opportunities.<br>
 By completing this project, I've not only honed my technical skills but also cultivated problem-solving abilities and gained confidence in <br>
 tackling real-world data analysis tasks. Moving forward, the knowledge and experience gained from this project will undoubtedly serve as a<br>
-cornerstone for my future endeavors in Python programming and data analysis, empowering me to take on more complex projects and contribute <br>
+cornerstone for my future endeavors in Python programming and data analysis, empowering me to take on more complex projects and contribute
 meaningfully to the field.</p>
 
 <h2>##Languages & Tools🛠️</h2>
