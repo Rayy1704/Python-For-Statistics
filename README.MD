@@ -55,7 +55,7 @@ meaningfully to the field.</p>
 [![Icone Python](https://skillicons.dev/icons?i=python)](https://www.python.org/)
 [![Icone PyCharm](https://skillicons.dev/icons?i=pycharm)](https://www.jetbrains.com/pycharm/)
 [![Icone VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/)
-[![Icone VS Code](https://skillicons.dev/icons?i=pandas)](https://code.visualstudio.com/)
+[![Icone VS Code](https://icons8.com/icon/xSkewUSqtErH/pandas)](https://code.visualstudio.com/)
 
 <h2>###Notes</h2>
 
