@@ -40,11 +40,11 @@
 </ol>
 <h3>##Learning Journey: From Course to Project</h3>
 <p>Embarking on the journey to develop the ES-111 Project, I initially sought to bolster my skills by
-enrolling in the Python for Beginners course offered by the University of Michigan. Through the course(Course Certificate provided),
+enrolling in the Python for Beginners course offered by the University of Michigan(Course Certificate provided),from which i made my notes(Provided). Through the course,
 I gained a comprehensive understanding of Python programming, data manipulation, and visualization techniques,
 laying a solid foundation for undertaking this project. As I delved into developing the ES-111 Project, I encountered
 challenges that encouraged me to apply the concepts and techniques learned during the course in a practical setting. From
-handling data with pandas to visualizing it using matplotlib.pyplot, every step of the project provided valuable learning opportunities.
+handling data with pandas to visualizing it using matplotlib.pyplot , every step of the project provided valuable learning opportunities.
 By completing this project, I've not only honed my technical skills but also cultivated problem-solving abilities and gained confidence in 
 tackling real-world data analysis tasks. Moving forward, the knowledge and experience gained from this project will undoubtedly serve as a
 cornerstone for my future endeavors in Python programming and data analysis, empowering me to take on more complex projects and contribute
@@ -56,7 +56,11 @@ meaningfully to the field.</p>
 [![Icone PyCharm](https://skillicons.dev/icons?i=pycharm)](https://www.jetbrains.com/pycharm/)
 [![Icone VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/)
 
-<h2>### Course Completion Certificate</h2>
+<h2>###Notes</h2>
+
+[Open Notes](https://github.com/Rayy1704/Python-For-Statistics/blob/main/Notes.pdf)
+
+<h2>###Course Completion Certificate</h2>
 
 [View Certificate](https://github.com/Rayy1704/Python-For_Statistics/raw/main/Python-CourseCertificate.pdf)
 
