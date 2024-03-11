@@ -1,6 +1,6 @@
 <h2>ES-111 Project: Python For Statistics</h2>
 
-<h3>##Introduction</h3>
+<h3>Introduction</h3>
 <p>This repository contains Python code for analyzing and visualizing data <br>related to ES-111 students' marks. The project focuses on providing basic<br>statistics and various graphical representations of the data</p>
 <h3>##Libraries Used in the Project:</h3>
 
@@ -30,7 +30,7 @@
   </li>
 </ol>
 
-<h3>##Functionalities Implemented:</h3>
+<h3>Functionalities Implemented:</h3>
 
 <ol>
   <li>Reads data from a CSV file containing ES-111 students' marks.</li>
@@ -50,7 +50,7 @@ tackling real-world data analysis tasks. Moving forward, the knowledge and exper
 cornerstone for my future endeavors in Python programming and data analysis, empowering me to take on more complex projects and contribute
 meaningfully to the field.</p>
 
-<h2>##Languages & Tools🛠️</h2>
+<h2>Languages & Tools🛠️</h2>
 
 [![Icone Python](https://skillicons.dev/icons?i=python)](https://www.python.org/)
 [![Icone PyCharm](https://skillicons.dev/icons?i=pycharm)](https://www.jetbrains.com/pycharm/)
@@ -59,11 +59,11 @@ meaningfully to the field.</p>
 
 
 
-<h2>###Notes</h2>
+<h2>Notes</h2>
 
 [Open Notes](https://github.com/Rayy1704/Python-For-Statistics/blob/main/Notes.pdf)
 
-<h2>###Course Completion Certificate</h2>
+<h2>Course Completion Certificate</h2>
 
 [View Certificate](https://github.com/Rayy1704/Python-For_Statistics/raw/main/Python-CourseCertificate.pdf)
 
