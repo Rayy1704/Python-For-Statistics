@@ -1,6 +1,6 @@
 <h2>ES-111 Project: Python For Statistics</h2>
 
-<h3>##Introduction</h3>
+<h3>Introduction</h3>
 <p>This repository contains Python code for analyzing and visualizing data <br>related to ES-111 students' marks. The project focuses on providing basic<br>statistics and various graphical representations of the data</p>
 <h3>##Libraries Used in the Project:</h3>
 
@@ -30,7 +30,7 @@
   </li>
 </ol>
 
-<h3>##Functionalities Implemented:</h3>
+<h3>Functionalities Implemented:</h3>
 
 <ol>
   <li>Reads data from a CSV file containing ES-111 students' marks.</li>
@@ -40,23 +40,30 @@
 </ol>
 <h3>##Learning Journey: From Course to Project</h3>
 <p>Embarking on the journey to develop the ES-111 Project, I initially sought to bolster my skills by
-enrolling in the Python for Beginners course offered by the University of Michigan. Through the course(Course Certificate provided),
+enrolling in the Python for Beginners course offered by the University of Michigan(Course Certificate provided),from which i made my notes(Provided). Through the course,
 I gained a comprehensive understanding of Python programming, data manipulation, and visualization techniques,
 laying a solid foundation for undertaking this project. As I delved into developing the ES-111 Project, I encountered
 challenges that encouraged me to apply the concepts and techniques learned during the course in a practical setting. From
-handling data with pandas to visualizing it using matplotlib.pyplot, every step of the project provided valuable learning opportunities.
+handling data with pandas to visualizing it using matplotlib.pyplot , every step of the project provided valuable learning opportunities.
 By completing this project, I've not only honed my technical skills but also cultivated problem-solving abilities and gained confidence in 
 tackling real-world data analysis tasks. Moving forward, the knowledge and experience gained from this project will undoubtedly serve as a
 cornerstone for my future endeavors in Python programming and data analysis, empowering me to take on more complex projects and contribute
 meaningfully to the field.</p>
 
-<h2>##Languages & Tools🛠️</h2>
+<h2>Languages & Tools🛠️</h2>
 
 [![Icone Python](https://skillicons.dev/icons?i=python)](https://www.python.org/)
 [![Icone PyCharm](https://skillicons.dev/icons?i=pycharm)](https://www.jetbrains.com/pycharm/)
 [![Icone VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com/)
+<a href="https://pandas.pydata.org/"><img src="https://img.icons8.com/color/48/000000/panda.png" width="48px"></a>
 
-<h2>### Course Completion Certificate</h2>
+
+
+<h2>Notes</h2>
+
+[Open Notes](https://github.com/Rayy1704/Python-For-Statistics/blob/main/Notes.pdf)
+
+<h2>Course Completion Certificate</h2>
 
 [View Certificate](https://github.com/Rayy1704/Python-For_Statistics/raw/main/Python-CourseCertificate.pdf)
 
