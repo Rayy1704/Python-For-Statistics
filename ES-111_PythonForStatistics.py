@@ -46,7 +46,7 @@ axs[1,0].set_ylabel('Frequency')
 axs[1,0].set_title('Bar Chart')
 
 #making pie chart
-axs[1,1].pie(marks_frequency.values,labels=marks_frequency.index, autopct='%1.1f%%', startangle=140)#settings for accurate display
+axs[1,1].pie(marks_frequency.values,labels=marks_frequency.index, autopct='%1.1f%%', startangle=90)#settings for accurate display
 axs[1,1].axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle
 axs[1,1].set_title('Pie Chart') #Labels
  
